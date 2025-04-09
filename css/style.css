@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #031b53; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #000000; 
+    text-shadow: 2px 2px 3px rgba(0, 17, 255, 0.329) ;
+    text-align: center;
+}
+
+#contenedor-juego {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+}
+
+#pista-container {
+    background-color: #3e92cc; 
+    color: white;
+    border-right: 5px solid #1e3f66 ;
+    border-bottom: 5px solid #1e3f66;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#pista-texto {
+    margin: 0;
+    font-style: italic;
+}
+
+#juego-container {
+    margin: 30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ahorcado-canvas {
+    border: 2px solid #1e3f66;
+    background-color: #ffffff; 
+    margin-bottom: 20px;
+}
+
+#palabra-container {
+    font-size: 2em;
+    letter-spacing: 10px;
+    margin: 20px 0;
+    font-weight: bold;
+    min-height: 50px;
+    color: #2c3e50;
+}
+
+#instrucciones {
+    color: #d3d3d3;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#mensaje-juego {
+    font-size: 1.2em;
+    margin: 20px 0;
+    min-height: 30px;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+#btn-reiniciar {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin: 20px auto; 
+    display: block;
+}
+
+#btn-reiniciar:hover {
+    background-color: #3e8e41;
+}
+
+@media (max-width: 600px) {
+    #palabra-container {
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+    
+    #contenedor-juego {
+        padding: 20px;
+    }
+}

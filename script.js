@@ -170,6 +170,6 @@ const palabrasConPistas = [
       } /* verifica si la tecla presionada esta entre la a-z y si lo esta, la envia */
   });
   
-  btnReiniciar.addEventListener('click', iniciarJuego);
+  btnReiniciar.addEventListener('click', iniciarJuego); 
   
   window.addEventListener('load', iniciarJuego);
